@@ -7,3 +7,6 @@ lazy val root = (project in file("."))
     name := "ZioBegins",
     idePackagePrefix := Some("com.katchfashion.nyltics")
   )
+libraryDependencies += "dev.zio" %% "zio" % "2.0.6"
+libraryDependencies += "dev.zio" %% "zio-test" % "2.0.6"
+libraryDependencies += "dev.zio" %% "zio-mock" % "1.0.0-RC9"
